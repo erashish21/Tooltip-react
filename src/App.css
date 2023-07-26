@@ -1,38 +1,50 @@
+/* css for body */
+body {
+    background: ghostwhite;
+}
+
+/* css for app component */
 .App {
-  text-align: center;
+    text-align: center;
+    margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* css for button in button component */
+.button {
+    cursor: pointer;
+    /* border: none; */
+    border-radius: 10px;
+    /* border-bottom: dashed 2px gray; */
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:hover {
+    background: white;
+    color: darkcyan;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* css for h2 heading */
+h1 {
+    color: cadetblue
 }
 
-.App-link {
-  color: #61dafb;
+
+/* css for form div */
+.form-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* css for form label */
+.form-div label {
+    width: 300px;
+    text-align: left;
+    font-weight: 600;
+    color: darkcyan;
 }
